@@ -1,6 +1,6 @@
 country = input('what country do you live in? ')
 
-if country == 'India':
+if country.lower() == 'India':
     state = input('what state do you live in? ')
     if state in ('telangana', \
         'andhra', 'tamilnadu'):
