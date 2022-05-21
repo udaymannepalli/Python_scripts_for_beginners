@@ -1,11 +1,7 @@
+from array import array
 
-try:
-    numerator = int(input('enter the numerator: '))
-    denominator = int(input('enter the denominator: '))
-    result = numerator / denominator
-    print(result)
-except ZeroDivisionError:
-    print('Denominator cannot be 0, please enter a valid number')
+scores = array('d')
+scores.append(10)
+scores.append(20)
 
-print('Program ends')
-
+print(scores)

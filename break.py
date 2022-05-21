@@ -1,8 +1,6 @@
 #input - state?
 # 3 states; taxes: 0.50(telangana),0.50(andhra),0.25(tamilandu)
 # based on input we will print tax
-
-
 state = input('Enter your state name? ')
 
 if state.lower() in ('telangana' , 'andhra'):
